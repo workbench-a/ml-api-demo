@@ -1,0 +1,18 @@
+# production requirements
+pandas
+numpy
+scikit-learn
+Keras
+opencv-python
+h5py
+Theano
+
+# packaging
+setuptools
+wheel
+
+# testing requirements
+pytest
+
+# fetching datasets
+kaggle
