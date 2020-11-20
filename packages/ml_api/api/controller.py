@@ -3,7 +3,7 @@ from flask import Blueprint, request
 prediction_app = Blueprint('prediction_app', __name__)
 
 @prediction_app.route('/', methods=['GET'])
-def health():
+def home():
     if request.method == 'GET':
         return 'Home Page'
 
