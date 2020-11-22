@@ -1,0 +1,17 @@
+include *.txt
+include *.md
+include *.cfg
+include *.pkl
+recursive-include ./simple_regression_demo/*
+
+include simple_regression_demo/datasets/train.csv
+include simple_regression_demo/datasets/test.csv
+include simple_regression_demo/trained_models/*.pkl
+include simple_regression_demo/VERSION
+
+include ./requirements.txt
+exclude *.log
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude deprecated

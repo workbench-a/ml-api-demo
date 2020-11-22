@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+tox = "*"
+jupyterlab = "*"
+twine = "*"
+
+[packages]
+numpy = ">=1.18.1,<1.19.0"
+pandas = ">=0.25.3,<0.26.0"
+scikit-learn = ">=0.22.1,<0.23.0"
+joblib = ">=0.14.1,<0.15.0"
+pytest = ">=5.3.2,<6.0.0"
+kaggle = "<1.6.0,>=1.5.6"
+matplotlib = "*"
+seaborn = "*"
+pipfile = "*"
+
+[requires]
+python_version = "3.8"
