@@ -29,4 +29,4 @@ simple_regression_demo/processing/test_mod.py
 simple_regression_demo/processing/transform_target.py
 simple_regression_demo/processing/validation.py
 simple_regression_demo/trained_models/__init__.py
-simple_regression_demo/trained_models/simple_regression_demo_output_v1.1.0.pkl
+simple_regression_demo/trained_models/simple_regression_demo_output_v1.1.4.pkl

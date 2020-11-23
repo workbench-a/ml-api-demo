@@ -9,6 +9,7 @@ verify_ssl = true
 marshmallow = "==2.17.0"
 gunicorn = "==19.9.0"
 Flask = "<1.2.0,>=1.1.1"
+pipfile = "*"
 
 [requires]
 python_version = "3.8"
