@@ -1,7 +1,7 @@
 from flask import Blueprint, request, jsonify
-from simple_regression_demo.processing.local_data_management import load_dataset
-from simple_regression_demo.predict import make_prediction
-from simple_regression_demo import __version__ as _version
+# from simple_regression_demo.processing.local_data_management import load_dataset
+# from simple_regression_demo.predict import make_prediction
+# from simple_regression_demo import __version__ as _version
 from api import __version__ as api_version
 
 prediction_app = Blueprint('prediction_app', __name__)
