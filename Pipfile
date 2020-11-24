@@ -15,6 +15,7 @@ marshmallow = "==2.17.0"
 gunicorn = "==19.9.0"
 Flask = "<1.2.0,>=1.1.1"
 simple-regression-demo = { version="*", index="testpypi" }
+pipfile = "*"
 
 [requires]
 python_version = "3.8"
