@@ -3,13 +3,18 @@ name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
+[[source]]
+name = "testpypi"
+url = "https://test.pypi.org/simple"
+verify_ssl = true
+
 [dev-packages]
 
 [packages]
 marshmallow = "==2.17.0"
 gunicorn = "==19.9.0"
 Flask = "<1.2.0,>=1.1.1"
-pipfile = "*"
+simple-regression-demo = { version="*", index="testpypi" }
 
 [requires]
 python_version = "3.8"

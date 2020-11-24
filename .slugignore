@@ -1,0 +1,5 @@
+# folders and files to omit from Heroku deployment
+
+packages/simple_regression_demo
+packages/neural_network_model
+notebooks
