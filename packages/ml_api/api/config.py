@@ -13,7 +13,6 @@ class Config:
     UPLOAD_FOLDER = UPLOAD_FOLDER
 
 class ProductionConfig(Config):
-    DEBUG = False
     # should this be configured 'more specifically?'
     SERVER_ADDRESS: os.environ.get('SERVER_ADDRESS', '0.0.0.0')
     SERVER_PORT: os.environ.get('SERVER_PORT', '5000')
