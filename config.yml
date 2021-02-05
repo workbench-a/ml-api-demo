@@ -10,4 +10,14 @@ workflows:
   welcome:
     # Run the welcome/run job in its own container
     jobs:
-      - welcome/run
+      one:
+        - welcome/run
+      two:
+        echo "config.yaml test successful!"
+# Under the workflows: map, we can coordinate our two jobs, defined above.
+workflows:
+version: 2.1
+one_and_two: # this is the name of our workflow
+  jobs: # and here we list the jobs we are going to run.
+    - one
+    - two
